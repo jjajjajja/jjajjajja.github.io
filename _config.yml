@@ -1,33 +1,30 @@
 # Site Author
-minimal_mistakes_skin    : "default" 
+minimal_mistakes_skin: "default"
 # Site Settings
-locale                   : "en-US"
-title                    : "&n00b's archive"
-name                     : "n00b"
-description              : "n00b's archive"
-breadcrumbs              : true
-words_per_minute         : 200
+locale: "en-US"
+title: "&n00b's archive"
+name: "n00b"
+description: "n00b's archive"
+breadcrumbs: true
+words_per_minute: 200
 comments:
-  provider               : giscus 
+  provider: giscus
   giscus:
-    repo                 :
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : pathname # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : 1 # '1' for enabled (default), '0' for disabled
-    theme                : light # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
-
+    repo_name: "jjajjajja/jjajjajja.github.io"
+    repo_id: "R_kgDOHTpUVQ"
+    category_name: "Comments"
+    category_id: "DIC_kwDOHTpUVc4CPCt6"
+    discussion_term: "pathname"
+    reactions_enabled: "1"
+    theme: "light"
 
 # search
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
-search_provider          : lunr # lunr (default), algolia, google
+search: true # true, false (default)
+search_full_content: true # true, false (default)
+search_provider: lunr # lunr (default), algolia, google
 
 # SEO Related
-google_site_verification :
-
-
+google_site_verification:
 
 # Reading Files
 include:
@@ -84,7 +81,6 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -92,9 +88,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title
-paginate: 5 
+paginate: 5
 paginate_path: /page:num/
-timezone: KST 
+timezone: KST
 
 # Plugins (previously gems:)
 plugins:
