@@ -24,7 +24,7 @@ search_full_content: true # true, false (default)
 search_provider: lunr # lunr (default), algolia, google
 
 # SEO Related
-google_site_verification:
+google_site_verification: W0x_TTUWCTNEMTxgCbGfvXtHxTpfF4voOd704JQ6q7c
 
 # Reading Files
 include:
